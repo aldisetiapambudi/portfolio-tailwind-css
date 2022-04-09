@@ -1,6 +1,7 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   darkMode: 'class',
+  prefix: 'tw-',
   theme: {
     container: {
       center: true,
@@ -17,5 +18,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tw-elements/dist/plugin'),
+  ],
 }
