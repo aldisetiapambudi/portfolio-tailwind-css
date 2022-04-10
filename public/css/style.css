@@ -528,20 +528,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0px;
 }
 
-.tw-mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.tw-ml-10 {
-  margin-left: 2.5rem;
-}
-
 .tw-ml-0 {
   margin-left: 0px;
-}
-
-.tw-ml-20 {
-  margin-left: 5rem;
 }
 
 .tw-mt-4 {
@@ -552,28 +540,52 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.5rem;
 }
 
+.tw-mt-3 {
+  margin-top: 0.75rem;
+}
+
+.tw-mt-1 {
+  margin-top: 0.25rem;
+}
+
 .tw-h-auto {
   height: auto;
-}
-
-.tw-w-32 {
-  width: 8rem;
-}
-
-.tw-w-20 {
-  width: 5rem;
 }
 
 .tw-w-28 {
   width: 7rem;
 }
 
-.tw-items-center {
-  align-items: center;
+.tw-w-6 {
+  width: 1.5rem;
 }
 
-.tw-justify-center {
-  justify-content: center;
+.tw-w-3 {
+  width: 0.75rem;
+}
+
+.tw-w-5 {
+  width: 1.25rem;
+}
+
+.tw-w-7 {
+  width: 1.75rem;
+}
+
+.tw-w-10 {
+  width: 2.5rem;
+}
+
+.tw-w-20 {
+  width: 5rem;
+}
+
+.tw-w-14 {
+  width: 3.5rem;
+}
+
+.tw-w-9 {
+  width: 2.25rem;
 }
 
 .tw-rounded-full {
@@ -582,6 +594,20 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .tw-border-b-0 {
   border-bottom-width: 0px;
+}
+
+.tw-border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.tw-border-b-kas {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(255 107 0 / var(--tw-border-opacity));
+}
+
+.tw-border-b-blue-600 {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(37 99 235 / var(--tw-border-opacity));
 }
 
 .tw-bg-blue-700 {
@@ -604,9 +630,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
-.tw-bg-yellow-500 {
+.tw-bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .tw-bg-opacity-95 {
@@ -627,17 +653,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 2.5rem;
 }
 
-.tw-pt-0 {
-  padding-top: 0px;
+.tw-pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.tw-pt-8 {
+  padding-top: 2rem;
+}
+
+.tw-text-left {
+  text-align: left;
 }
 
 .tw-text-center {
   text-align: center;
 }
 
-.tw-text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.tw-font-inter {
+  font-family: Inter;
 }
 
 .tw-text-base {
@@ -650,41 +683,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
 }
 
-.tw-text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.tw-text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.tw-text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.tw-text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .tw-text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.tw-font-semibold {
-  font-weight: 600;
 }
 
 .tw-font-bold {
   font-weight: 700;
 }
 
-.tw-font-extrabold {
-  font-weight: 800;
+.tw-font-semibold {
+  font-weight: 600;
 }
 
 .tw-tracking-wide {
@@ -693,6 +702,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .tw-tracking-wider {
   letter-spacing: 0.05em;
+}
+
+.tw-text-kas {
+  --tw-text-opacity: 1;
+  color: rgb(255 107 0 / var(--tw-text-opacity));
 }
 
 .tw-text-white {
@@ -710,24 +724,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 
-.tw-text-dark {
+.tw-text-slate-50 {
   --tw-text-opacity: 1;
-  color: rgb(15 23 42 / var(--tw-text-opacity));
-}
-
-.tw-text-slate-100 {
-  --tw-text-opacity: 1;
-  color: rgb(241 245 249 / var(--tw-text-opacity));
-}
-
-.tw-text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
+  color: rgb(248 250 252 / var(--tw-text-opacity));
 }
 
 .tw-text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity));
+}
+
+.tw-text-dark {
+  --tw-text-opacity: 1;
+  color: rgb(15 23 42 / var(--tw-text-opacity));
 }
 
 .tw-shadow-lg {
@@ -736,31 +745,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.tw-blur-sm {
-  --tw-blur: blur(4px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.tw-blur-md {
-  --tw-blur: blur(12px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .tw-grayscale {
   --tw-grayscale: grayscale(100%);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.tw-backdrop-blur-sm {
-  --tw-backdrop-blur: blur(4px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-}
-
-.tw-backdrop-grayscale-0 {
-  --tw-backdrop-grayscale: grayscale(0);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
 
 .tw-transition {
@@ -769,14 +756,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.tw-duration-1000 {
-  transition-duration: 1000ms;
-}
-
-.tw-duration-\[2000\] {
-  transition-duration: 2000;
 }
 
 .tw-duration-500 {
@@ -810,24 +789,28 @@ Ensure the default browser behavior of the `hidden` attribute.
     @apply -rotate-45 ;
 } */
 
+.hover\:tw-border-2:hover {
+  border-width: 2px;
+}
+
+.hover\:tw-border-dark:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(15 23 42 / var(--tw-border-opacity));
+}
+
+.hover\:tw-border-kas:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 107 0 / var(--tw-border-opacity));
+}
+
+.hover\:tw-border-b-kas:hover {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(255 107 0 / var(--tw-border-opacity));
+}
+
 .hover\:tw-bg-slate-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
-
-.hover\:tw-text-sm:hover {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
-.hover\:tw-text-lg:hover {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.hover\:tw-text-xl:hover {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .hover\:tw-text-base:hover {
@@ -835,93 +818,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.5rem;
 }
 
-.hover\:tw-text-3xl:hover {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.hover\:tw-text-emerald-800:hover {
-  --tw-text-opacity: 1;
-  color: rgb(6 95 70 / var(--tw-text-opacity));
-}
-
-.hover\:tw-shadow-sm:hover {
-  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:tw-shadow-xl:hover {
-  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:tw-shadow-2xl:hover {
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:tw-shadow-lg:hover {
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:tw-shadow-inner:hover {
-  --tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
-  --tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:tw-shadow-white:hover {
-  --tw-shadow-color: #fff;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.hover\:tw-shadow-dark:hover {
-  --tw-shadow-color: #0f172a;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.hover\:tw-shadow-slate-600:hover {
-  --tw-shadow-color: #475569;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
 .hover\:tw-grayscale-0:hover {
   --tw-grayscale: grayscale(0);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.active\:tw-text-2xl:active {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.active\:tw-text-xl:active {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.active\:tw-text-sm:active {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+.tw-group:hover .group-hover\:tw-border-2 {
+  border-width: 2px;
 }
 
 .tw-group:hover .group-hover\:tw-border-b-2 {
   border-bottom-width: 2px;
-}
-
-.tw-group:hover .group-hover\:tw-border-yellow-400 {
-  --tw-border-opacity: 1;
-  border-color: rgb(250 204 21 / var(--tw-border-opacity));
-}
-
-.tw-group:hover .group-hover\:tw-border-red-800 {
-  --tw-border-opacity: 1;
-  border-color: rgb(153 27 27 / var(--tw-border-opacity));
 }
 
 .tw-group:hover .group-hover\:tw-border-\[\#F08300\] {
@@ -929,14 +836,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(240 131 0 / var(--tw-border-opacity));
 }
 
-.tw-group:hover .group-hover\:tw-text-teal-50 {
-  --tw-text-opacity: 1;
-  color: rgb(240 253 250 / var(--tw-text-opacity));
+.tw-group:hover .group-hover\:tw-border-kas {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 107 0 / var(--tw-border-opacity));
 }
 
-.tw-group:hover .group-hover\:tw-text-teal-800 {
-  --tw-text-opacity: 1;
-  color: rgb(17 94 89 / var(--tw-text-opacity));
+.tw-group:hover .group-hover\:tw-border-yellow-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(250 204 21 / var(--tw-border-opacity));
+}
+
+.tw-group:hover .group-hover\:tw-border-dark {
+  --tw-border-opacity: 1;
+  border-color: rgb(15 23 42 / var(--tw-border-opacity));
+}
+
+.tw-group:hover .group-hover\:tw-border-b-kas {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(255 107 0 / var(--tw-border-opacity));
 }
 
 @media (min-width: 768px) {
@@ -952,9 +869,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: flex;
   }
 
-  .md\:tw-py-24 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+  .md\:tw-w-14 {
+    width: 3.5rem;
   }
 
   .md\:tw-py-28 {
@@ -966,14 +882,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     text-align: left;
   }
 
-  .md\:tw-text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .md\:tw-text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:tw-text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .md\:tw-text-2xl {
@@ -981,9 +897,9 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 2rem;
   }
 
-  .md\:tw-text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+  .md\:tw-text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .md\:hover\:tw-text-xl:hover {
@@ -999,6 +915,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:tw-w-full {
     width: 100%;
+  }
+
+  .lg\:tw-text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .lg\:tw-backdrop-blur-lg {

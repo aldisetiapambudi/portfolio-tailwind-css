@@ -11,6 +11,8 @@
 .dev {
     @apply tw-border-2 tw-border-slate-900;
 }
+
+
 /* 
 .navbar-fixed {
     @apply fixed z-[9999] bg-white bg-opacity-80;
