@@ -612,14 +612,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 0.75rem;
 }
 
-.tw-ml-10 {
-  margin-left: 2.5rem;
-}
-
-.tw-mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .tw-flex {
   display: flex;
 }
@@ -735,12 +727,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.375rem;
 }
 
-.tw-rounded-sm {
-  border-radius: 0.125rem;
-}
-
 .tw-rounded-bl-3xl {
   border-bottom-left-radius: 1.5rem;
+}
+
+.tw-border-2 {
+  border-width: 2px;
 }
 
 .tw-border-4 {
@@ -749,10 +741,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .tw-border-0 {
   border-width: 0px;
-}
-
-.tw-border-2 {
-  border-width: 2px;
 }
 
 .tw-border-b-0 {
@@ -826,16 +814,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 0.95;
 }
 
+.tw-p-2 {
+  padding: 0.5rem;
+}
+
 .tw-p-7 {
   padding: 1.75rem;
 }
 
 .tw-p-5 {
   padding: 1.25rem;
-}
-
-.tw-p-2 {
-  padding: 0.5rem;
 }
 
 .tw-px-5 {
@@ -1263,14 +1251,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(20 184 166 / var(--tw-border-opacity));
 }
 
-.hover\:tw-bg-slate-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
-
 .hover\:tw-bg-sky-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(7 89 133 / var(--tw-bg-opacity));
+}
+
+.hover\:tw-bg-slate-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
 
 .hover\:tw-bg-blue-600:hover {
